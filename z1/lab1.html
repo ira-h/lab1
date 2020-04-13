@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lab1.css">
+    <title>Lab1</title>
+    
+
+</head>
+
+<body>
+    <main>
+    <section class="sec1">
+        <header>
+            <h1>Ооочень важно</h1>
+          </header>
+          <article>
+            <h2>НЕ очень важно</h2>
+            <p>Остальное</p>
+          </article>
+    <p>Насколько хорошее настроение)</p>
+  <meter value="2" max="100" low="10" high="60">Плохое</meter>
+  <meter value="45" max="100" low="10" high="60">Нормальное</meter>
+  <meter value="73" max="100" low="10" high="60">Хорошо</meter>
+  <meter value="96" max="100">Супер</meter>
+  <dialog open>DIALOG WINDOW</dialog>
+  <table>
+        <tr>
+            <th>100</th>
+            <th>200</th>
+            <th>300</th>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>20</td>
+            <td>30</td>
+        </tr>
+    </table>
+
+  <p></p><bdi>เกลือ</bdi> — соль</p>   
+  <p>В тайском произношении звучит как «клыа Чай»</p>
+
+</section>
+<section class="sec2">
+
+    
+    <canvas id="myCanvas"></canvas>
+    <template>
+    <h2>Flower</h2>
+    <img src="img_white_flower.jpg">
+</template>
+
+    <p>Танцы начинаются в <time>17:30</time> каждую пятницу.</p>        
+    <p><time>1957-10-04</time> запущен первый искусственный спутник Земли.</p>
+</section>
+
+<section class="sec3">
+<audio controls>
+    <p>Music</p>
+    <source src="Placebo_Meds.mp3" type="audio/mp3">
+        <track src="subtitles_en.vtt" kind="subtitles" srclang="en" label="English">
+    Your browser does not support the audio tag.
+  </audio>
+  <details>
+    <summary>Some details about song</summary>
+    <p>More info about the details.</p>
+  </details>
+
+  <article>
+    <figure>
+     <p><img src="ball_1.jpg" alt=""></p>
+     <figcaption>Балерины></figcaption>
+    </figure>
+   </article>
+
+  <p>Сhoose your character:</p>
+  <p><input list="character">
+   <datalist id="character">
+    <option value="Harry Potter"></option>
+    <option value="Hermione Granger"></option>
+    <option value="Ron Weasley"></option>
+   </datalist></p>
+   </main>
+
+   <article>
+    Древнегре́ческая мифоло́гия — мифология древних греков, тесно переплетающаяся с их <mark>религией</mark>.
+  </article>
+  <embed src="helloworld.swf">
+
+  <div contextmenu = "testmenu"> <!-- определяем, для блока контекстное меню --> 
+    Кликни по мне правой кнопкой мыши.
+    <menu type = "context" id = "testmenu"> <!-- создаем контекстное меню --> 
+        <menuitem label = "like"></menuitem> <!-- определяем первый элемент меню --> 
+        <menuitem label = "dislike"></menuitem> <!-- определяем второй элемент меню --> 
+    </menu>
+</section>
+
+
+   <section class="sec4">
+    <aside>
+        <p>Good morning)</p>
+        <p>Good evening</p>
+        <p>Good night</p>
+    </aside>
+
+    <nav><a href="1.html">Harry Potter</a> | <a href="2.html">Hermione Granger</a> |
+        <a href="3.html">Ron Weasley</a> | <a href="4.html">Bellatrix Lestrange</a></nav>
+
+        <form oninput="result.value=(cm.value*2.204).toFixed(3)">
+            <p>Введите вес в кг: 
+            <input type="number" name="cm" autofocus></p>
+            <p>Вес в фунтах: <output name="result">0</output></p>
+          </form>
+
+          <p>Flowers</p>
+
+          <picture>
+            <img src="cart.jpg" alt="Flowers" style="width:500px;">
+        </picture>
+
+        <p>Загрузка</p>
+  <progress max="100" value="25">
+    Загружено на <span id="value">25</span>%
+  </progress>
+
+  <p><video width="320" height="240" controls>
+    <source src="video.mp4" type="video/mp4">
+    <source src="video.ogg" type="video/ogg">
+    Your browser does not support the video tag.
+  </video>
+</p>
+
+<p class="word">looooooooooo<wbr>ooooooooo<wbr>ooooooo<wbr>ooooo<wbr>ooooooo<wbr>oooooong</p>
+    
+    <form oninput="x.value=parseInt(a.value)+parseInt(b.value)">0
+        <input type="range" id="a" value="50">100 +
+        <input type="number" id="b" value="50"> =
+        <output name="x" for="a b"></output>
+    </form>
+
+
+
+    <p><footer>
+        Copyright Гук Ирина
+      </footer>
+    </p>
+
+    </section>
+    <script>
+        var canvas = document.getElementById("myCanvas");
+        var ctx = canvas.getContext("2d");
+        ctx.fillStyle = "#00FF00";
+        ctx.fillRect(0, 0, 100, 80);
+    </script>
+    
+</body>
+</html>
+         

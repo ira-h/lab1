@@ -1,0 +1,39 @@
+aside {
+    background: #f0f0f0;
+
+    padding: 10px;
+ 
+   width: 200px;
+ 
+   float: right;
+}
+
+
+article {
+    margin-right: 240px;
+    display: block;
+}
+
+.
+sec1 {
+    padding: 20px;
+    border: 4px solid brown;
+}
+
+.
+sec2 {
+    padding: 20px;
+    border: 4px solid rgb(42, 165, 63);
+}
+
+.
+sec3 {
+    padding: 20px;
+    border: 4px solid rgb(165, 147, 42);
+}
+
+.
+sec4 {
+    padding: 20px;
+    border: 4px solid rgb(85, 42, 165);
+}
